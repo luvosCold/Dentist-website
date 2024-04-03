@@ -1,0 +1,171 @@
+
+#insurance{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:100px;
+    margin:100px;
+    margin-top: 3rem;
+    border-top: 2px solid blue;
+}
+
+
+#boxar{
+    border: none;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 2px 6px 20px 10px rgb(17, 17, 54);
+}
+
+#boxar p{
+    color:rgb(34, 159, 181);
+    font-size: 20px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#boxar h2{
+    color:rgb(34, 159, 181);
+    font-size: 40px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#boxer{
+    border: none;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 2px 6px 20px 10px rgb(17, 17, 54);
+}
+#boxer img{
+    width:300px;
+    /* margin-left: 150px; */
+}
+
+#boxer h3{
+    color:rgb(34, 159, 181);
+    font-size: 40px;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#boxer p{
+    margin: 50px;
+    font-size: 20px;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.book-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgb(34, 159, 181);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.book-button:hover {
+    background-color: #0b332e;
+    transform: translateY(-5px);
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.book-button:hover .arrow {
+    transform: translateX(5px);
+}
+
+.world{
+    background-color: white;
+}
+
+#map h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.patients{
+    text-align: center;
+    font-size: 30px;
+}
+
+#sponsa{
+    display: flex;
+    background-color: rgb(159, 197, 208);
+    margin: 2px;
+}
+
+#sponji img{
+    margin: 20px;
+    /* margin-left: 60%; */
+}
+
+.box11 {
+    padding: 20px;
+    margin: 10px;
+    border: 9px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Add this media query for screens with a max width of 455px */
+@media screen and (max-width: 455px) {
+    #insurance {
+        flex-direction: column;
+        padding: 20px; /* Adjusted padding for spacing on smaller screens */
+        margin: 10px; /* Adjusted margin for spacing on smaller screens */
+    }
+
+    .box11 {
+        width: 80%; /* Adjusted width for full-width content on smaller screens */
+        margin: 10px auto; /* Center align on smaller screens */
+    }
+
+    .box11 p, .box11 h2, .boxer h3, .boxer p {
+        font-size: 18px; /* Adjusted font size for better readability on smaller screens */
+    }
+
+    #boxer img {
+        width: 80%; /* Adjusted image width for smaller screens */
+    }
+
+    .buttons-container {
+        margin-top: 5%; /* Adjusted margin for better spacing */
+    }
+
+    
+    #boxar{
+        border: none;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50px;
+        box-shadow: 2px 6px 20px 10px rgb(17, 17, 54);
+    }
+
+    #boxer{
+        border: none;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 50px;
+        box-shadow: 2px 6px 20px 10px rgb(17, 17, 54);
+    }
+}
+
+

@@ -1,0 +1,156 @@
+.appointment .container {
+    background-image: url('images/backgorund/back.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto; /* Adjusted to auto to accommodate content */
+    margin-bottom: -5rem;
+    padding: 2rem 0; /* Added padding for better spacing */
+}
+
+.appointment .container form {
+    flex: 1 1 02rem;
+    /* border: 3px solid blue; */
+    box-shadow: #10162b 0rem 0rem 3rem 0.3rem;
+    padding: 1rem 1.2rem;
+    margin: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.781);
+    height: auto;
+    width: 40%;
+    margin-left: 10%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.form-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-container label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    font-family: sans-serif;
+    color: blue;
+    font-weight: 200;
+}
+
+.form-container input, .form-container textarea {
+    flex: 2;
+    padding: 5px;
+    border: blue 1px solid;
+}
+
+.date-picker-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date-picker-container label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+    font-size: bold;
+}
+
+.date-picker-container input {
+    flex: 2;
+    padding: 5px;
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 10px;
+    align-self: flex-start;
+    border: blue 1px solid;
+    padding: 2px 2rem;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color: blue;
+    background-color: white;
+    transition: all 0.50s ease;
+}
+/* .appointment .container .box .content form .date-picker-container{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+
+
+  } */
+
+/* Modify date picker container styles */
+.ui-datepicker {
+    font-size: 14px;
+  }
+  
+  /* Change the background color of the date picker header */
+  .ui-datepicker-header {
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #007BFF;
+  }
+  
+  /* Change the color of the date picker title */
+  .ui-datepicker-title {
+    font-weight: bold;
+  }
+  
+  /* Modify styles for date picker days */
+  .ui-datepicker td {
+    border: 1px solid #ccc;
+  }
+  
+  /* Change the color of selected date */
+  .ui-datepicker-calendar .ui-state-active {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  /* Change the color of today's date */
+  .ui-datepicker-calendar .ui-state-highlight {
+    background-color: #FFC107;
+  }
+  
+  /* Customize the style of the date input */
+  #preferred-date {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  
+
+
+/* Media query for screens with a maximum width of 455px */
+@media screen and (max-width: 455px) {
+    .appointment .container form {
+        width: 90%; /* Adjusted width for smaller screens */
+        margin-left: 5%; /* Adjusted margin for centering on smaller screens */
+    }
+
+    .appointment .container .box .content form input,
+    .appointment .container .box .content form textarea {
+        width: 100%; /* Full width for input and textarea */
+        margin-bottom: 1rem; /* Increased margin for spacing */
+        font-size: 1.1rem;
+        border: 1px solid blue;
+        padding: 5px;
+    }
+}
+
